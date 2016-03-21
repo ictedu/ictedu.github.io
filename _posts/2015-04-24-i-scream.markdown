@@ -11,8 +11,8 @@ date:   2016-03-21 10:05:59
 Communication Network are the backbone of modern digital life. It give us the ability to experience the situation of others places without being physically there. It open up our eyes to the rest of the world beauties and greatness achieved by others civilization.
 <p>Few things that will be highlighted will be:</p>
 <p> <b>1.Wired Network</b> </p>
-<p> <b>12.Wireless Network</b> </p>
-<p> <b>13.Network Type</b> </p>
+<p> <b>2.Wireless Network</b> </p>
+<p> <b>3.Network Type</b> </p>
 
 ### Wired network
 <p>1.Twisted-pair cable</p>
