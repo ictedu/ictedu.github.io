@@ -1,0 +1,39 @@
+@mixin hideText {
+  /* Hide the text */
+  text-indent: -201%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin bg-img-contain($imgURL) {
+  background: {
+    image: url($imgURL);
+    repeat: no-repeat;
+    position: center;
+    size: contain;
+  }
+}
+
+@mixin bg-dark-default {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 10px;
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-shadow: 1px 1px 15px #fff;
+    }
+  }
+}
+
+@mixin box-shadow-default {
+  box-shadow: 1px 1px 20px 1px #333;
+}
+
+@mixin txt-shadow-dark-default {
+  text-shadow: 1px 3px 10px #333;
+}
+@mixin txt-shadow-light-default {
+  text-shadow: 1px 2px 50px #fff;
+}

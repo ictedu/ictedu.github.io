@@ -1,0 +1,21 @@
+#home-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: {
+    image: url("/assets/img/ict-bg.jpg");
+    position: center center;
+    size: cover;
+    color: rgba(0, 0, 0, 0.1);
+  }
+  height: 100vh;
+  min-height: 400px;
+  max-height: 600px;
+  margin-top: -20px;
+  #header-text {
+    color: #fff;
+    @include bg-dark-default;
+    padding: 20px;
+    border-radius: 5px;
+  }
+}

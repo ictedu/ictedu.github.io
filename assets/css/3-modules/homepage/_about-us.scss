@@ -1,0 +1,38 @@
+#aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 500px;
+  text-align: center;
+  margin: 10px auto;
+  .imgBox {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    .img-us {
+      &.sf-img {background-image: url("/assets/img/sf-img.jpg");}
+      &.na-img {background-image: url("/assets/img/na-img.jpg");}
+      &.is-img {background-image: url("/assets/img/is-img.jpg");}
+      &.ss-img {background-image: url("/assets/img/ss-img.jpg");}
+      background: {
+        size: cover;
+        position: center center;
+        repeat: no-repeat;
+      }
+      width: 100%;
+      height: 100%;
+      transition: all 125ms ease-out;
+      &:hover {
+        width: 120%;
+        height: 120%;
+        margin-top: -15px;
+        margin-left: -15px;
+      }
+    }
+  }
+  div .col-sm-3 {
+    padding-top: 20px;
+  }
+}

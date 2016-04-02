@@ -1,7 +1,19 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: ICT-EDU
+author: Syahmi Fauzi
+description: What you need to know about ICT
+markdown: kramdown
+exclude: ["node_modules", "gulpfile.js", "package.json", "README.md", "offline.txt"]
+
+permalink: /:categories/:year/:month/:day/:title/ # just pretty
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ictedu.github.io" # the base hostname & protocol for your site
+production: true
+
+# For Development,
+# Comment 'url:' & 'production:' before
+# Running 'gulp' in console..
+
+# For Production,
+# Uncomment 'url:' & 'production:' before
+# Commit to master..

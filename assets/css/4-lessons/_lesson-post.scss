@@ -1,0 +1,65 @@
+#lesson-container-fluid {
+  background: {
+    image: url("/assets/img/ict-bg.jpg");
+    position: center center;
+    size: cover;
+    color: rgba(0, 0, 0, 0.1);
+  }
+}
+#lesson-post-container {
+  text-align: center;
+  .lesson-header {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    @include bg-dark-default;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 10px 30px;
+    @media all and (max-width: 600px)
+      {display: inline-block; max-width: 300px;}
+  }
+  .lesson-author-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto 0 auto 20px;
+    box-shadow: 1px 2px 10px #999;
+    @media all and (max-width: 600px)
+      {margin: 10px auto;}
+  }
+  .lesson-description {
+    color: #ddd;
+  }
+  .container {
+    text-align: left;
+    background-color: #fff;
+    max-width: 960px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #333;
+  }
+  hr {
+     margin: 30px 0;
+     border: 1px #aaa dotted;
+  }
+  .lesson-nav {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    li {
+      @include bg-dark-default;
+      list-style-type: none;
+      padding: 10px;
+      margin: 20px 0;
+      &:first-child {margin-right: 10px;}
+      &:last-child {margin-left: 10px;text-align: right;}
+      a {
+        font-size: 17px;
+      }
+    }
+  }
+}

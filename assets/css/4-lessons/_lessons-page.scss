@@ -1,0 +1,37 @@
+#Lessons-page {
+  text-align: center;
+  #lesson-page-header {
+    color: #eee;
+    @include bg-dark-default;
+    margin: 20px;
+    padding: 10px 0 30px 0;
+    @include txt-shadow-light-default;
+  }
+  .container {
+    min-height: 500px;
+    min-height: 70vh;
+  }
+  ul#lesson-list {
+    li {
+      opacity: 0.9;
+      display: inline-block;
+      max-width: 500px;
+      height: auto;
+      color: #eee;
+      font-size: 20px;
+      line-height: 2;
+      background-color: rgb(37, 144, 255);
+      @include box-shadow-default;
+      list-style-type: none;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      @include txt-shadow-dark-default;
+      &:hover {
+        opacity: 1;
+        color: #fff;
+      }
+      .arrow {color: yellow;}
+    }
+  }
+}

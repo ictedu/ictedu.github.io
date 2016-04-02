@@ -1,0 +1,31 @@
+#home-carousel {
+  margin: 0 -15px;
+  .carousel-inner {
+    height: 500px;
+    .item, img {
+      height: 100%;
+      width: 100%;
+    }
+    .item {
+      background: {
+        size: cover;
+        position: center center;
+        repeat: no-repeat;
+        color: #eee;
+      }
+    }
+    .item:nth-child(1)
+      {background-image: url("/assets/img/carousel-1.jpg");}
+    .item:nth-child(2)
+      {background-image: url("/assets/img/carousel-2.jpg");}
+    .item:nth-child(3)
+      {background-image: url("/assets/img/carousel-3.png");}
+  }
+  .carousel-caption {
+    padding: 20px;
+    @include bg-dark-default;
+    margin-bottom: 90px;
+    min-height: 200px;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div id="lesson-post-container">
+  <div class="lesson-header">
+    <div class="lesson-details">
+      <h1 class="lesson-title">Lesson {{ page.lesson }}: {{ page.title }}</h1>
+      {% if page.description %}<p class="lesson-description">{{ page.description }}</p>{% endif %}
+      <h5 class="lesson-date">{{ page.date | date_to_string }}</h5>
+      <h4 class="lesson-author">By &ldquo; {{ page.author }}	&rdquo;</h4>
+    </div>
+    <img src="{{ page.author_img }}" alt="{{ page.author }}" class="lesson-author-img">
+  </div>
+
+  <hr>
+  <div class="container">
+    {{ content }}
+  </div>
+  <hr>
+
+  <div class="lesson-nav">
+    {% if page.next %}
+      <li><a href="{{ page.next.url }}">&lt;&lt;&lt; Lesson {{ page.next.lesson }}: {{ page.next.title }}</a></li>
+    {% endif %}
+
+    {% if page.previous %}
+      <li><a href="{{ page.previous.url }}">Lesson {{ page.previous.lesson }}: {{ page.previous.title }} &gt;&gt;&gt;</a></li>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,21 @@
+/*! --------------->>>>>>>>>>>>>>>>>>>>>>>>> */
+/*! DESIGN BY SYAHMI FAUZI @ SYAHMIFAUZI.COM */
+/*! <<<<<<<<<<<<<<<<<<<<<<<<<--------------- */
+// @import "0-tools/fonts";
+
+@import "3-modules/mixins";
+@import "3-modules/scrollbar";
+@import "3-modules/to-top";
+@import "3-modules/disqus-comments";
+@import "3-modules/page404";
+@import "3-modules/homepage/header";
+@import "3-modules/homepage/carousel";
+@import "3-modules/homepage/about-us";
+@import "3-modules/homepage/footer-n-nav";
+
+@import "4-lessons/lessons-page";
+@import "4-lessons/lesson-post";
+
+.container-fluid {
+  max-width: 2000px;
+}

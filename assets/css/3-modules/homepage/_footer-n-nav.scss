@@ -1,0 +1,32 @@
+#site-nav, #site-footer {
+  margin-right: -15px;
+  margin-left: -15px;
+  .container a.navbar-brand {
+    background: {
+      image: url("/assets/img/ictedu.png");
+      repeat: no-repeat;
+      position: center;
+      size: contain;
+    }
+    @include hideText;
+    height: auto;
+    width: 120px;
+  }
+}
+
+#site-footer .container {
+  padding: 70px 20px;
+  min-height: 200px;
+  .brand-copy {
+    a, span {color: #aaa;}
+    span {
+      line-height: 3.5;
+      padding-left: 30px;
+      display: inline-block;
+      @media all and (max-width: 370px)
+        {&:before {content: "\A";}}
+      @media all and (max-width: 340px)
+        {padding-left: 0;}
+    }
+  }
+}

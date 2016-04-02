@@ -1,0 +1,31 @@
+---
+layout: default
+title: LESSONS | ICT-EDU
+---
+
+<div id="Lessons-page">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12" id="lesson-page-header">
+        <h1>Explore all lessons here..</h1>
+        <div><q>Some quote here</q></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <ul id="lesson-list">
+        {% for post in site.posts %}
+          <a href="{{ post.url }}">
+            <li>
+              Lesson {{ post.lesson }}
+              <span class="arrow"> &raquo; </span>
+              {{ post.title }}
+            </li>
+          </a>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
