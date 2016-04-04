@@ -6,11 +6,11 @@ layout: default
   <div class="lesson-header">
     <div class="lesson-details">
       <h1 class="lesson-title">Lesson {{ page.lesson }}: {{ page.title }}</h1>
-      {% if page.description %}<p class="lesson-description">{{ page.description }}</p>{% endif %}
+      {% if page.description %}<p class="lesson-description">&ldquo; {{ page.description }} &rdquo;</p>{% endif %}
       <h5 class="lesson-date">{{ page.date | date_to_string }}</h5>
-      <h4 class="lesson-author">By &ldquo; {{ page.author }}	&rdquo;</h4>
+      <h4 class="lesson-author">By &ldquo; {{ page.author }} &rdquo;</h4>
     </div>
-    <img src="{{ page.author_img }}" alt="{{ page.author }}" class="lesson-author-img">
+    <img src="/assets/img/authors/{{ page.author_img }}" alt="{{ page.author }}" class="lesson-author-img">
   </div>
 
   <hr>

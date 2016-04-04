@@ -3,7 +3,7 @@ layout: post
 title: "Databases"
 lesson: 4
 author: Solihin Shahril
-author_img: /assets/img/ss-img.jpg
+author_img: ss-img.jpg
 description: Tak kisah ade ke x..
 #comments: true
 #comments_id: "databases"

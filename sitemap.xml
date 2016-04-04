@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://ictedu.github.io/</loc>
-        <lastmod>2016-04-02T17:51:52.282Z</lastmod>
+        <lastmod>2016-04-04T16:11:46.941Z</lastmod>
     </url>
     <url>
         <loc>http://ictedu.github.io/lessons/</loc>
-        <lastmod>2016-04-02T17:51:52.282Z</lastmod>
+        <lastmod>2016-04-04T16:11:46.928Z</lastmod>
     </url>
     <url>
         <loc>http://ictedu.github.io/2016/03/30/databases/</loc>
-        <lastmod>2016-04-02T17:51:52.826Z</lastmod>
+        <lastmod>2016-04-04T16:11:47.981Z</lastmod>
     </url>
     <url>
         <loc>http://ictedu.github.io/2016/03/31/communication-and-networks/</loc>
-        <lastmod>2016-04-02T17:51:52.826Z</lastmod>
+        <lastmod>2016-04-04T16:11:48.000Z</lastmod>
     </url>
     <url>
         <loc>http://ictedu.github.io/2016/04/01/input-and-output/</loc>
-        <lastmod>2016-04-02T17:51:52.826Z</lastmod>
+        <lastmod>2016-04-04T16:11:48.016Z</lastmod>
     </url>
     <url>
-        <loc>http://ictedu.github.io/2016/04/02/introduction-to-ict/</loc>
-        <lastmod>2016-04-02T17:51:52.856Z</lastmod>
+        <loc>http://ictedu.github.io/2016/04/02/system-unit/</loc>
+        <lastmod>2016-04-04T16:11:48.035Z</lastmod>
+    </url>
+    <url>
+        <loc>http://ictedu.github.io/2016/04/04/2016-03-31-communication-and-networks/</loc>
+        <lastmod>2016-04-04T09:55:37.865Z</lastmod>
     </url>
 </urlset>

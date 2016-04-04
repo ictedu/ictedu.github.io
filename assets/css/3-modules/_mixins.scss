@@ -5,6 +5,20 @@
   overflow: hidden;
 }
 
+@mixin responsiveImages($imgS, $imgM, $imgL, $imgXL) {
+  background-image: url($imgS); // Width below 640px
+  @media all and (min-width: 640px) {background-image: url($imgM);}
+  @media all and (min-width: 900px) {background-image: url($imgL);}
+  @media all and (min-width: 1024px) {background-image: url($imgXL);}
+  background: {
+    size: cover;
+    position: center center;
+    color: rgba(0, 0, 0, 0.1);
+  }
+  height: 100%;
+  width: 100%;
+}
+
 @mixin bg-img-contain($imgURL) {
   background: {
     image: url($imgURL);

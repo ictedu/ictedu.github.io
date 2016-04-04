@@ -1,10 +1,5 @@
 #lesson-container-fluid {
-  background: {
-    image: url("/assets/img/ict-bg.jpg");
-    position: center center;
-    size: cover;
-    color: rgba(0, 0, 0, 0.1);
-  }
+  @include responsiveImages("/assets/img/bg/ict-bg-s.png", "/assets/img/bg/ict-bg-m.png", "/assets/img/bg/ict-bg-l.png", "/assets/img/bg/ict-bg-xl.png");
 }
 #lesson-post-container {
   text-align: center;
@@ -40,6 +35,39 @@
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 0 20px 0 #333;
+
+    .img-row {
+      text-align: center;
+      width: 100%;
+      .img-box {
+        display: inline-block;
+        min-width: 30%;
+        // max-width: 45%;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.2);
+        img {
+          // width: 200px;
+          max-width: 200px;
+          height: auto;
+          margin: 0 auto;
+          border-radius: 5px;
+        }
+      }
+      iframe.video-ict {
+        width: 560px;
+        height: 315px;
+        @media all and (max-width: 660px) {
+          width: 100%;
+          max-height: 300px;
+        }
+      }
+    }
+    .credits {
+      text-align: center;
+    }
   }
   hr {
      margin: 30px 0;

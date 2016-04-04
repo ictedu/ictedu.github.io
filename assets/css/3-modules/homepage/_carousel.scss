@@ -7,19 +7,13 @@
       width: 100%;
     }
     .item {
-      background: {
-        size: cover;
-        position: center center;
-        repeat: no-repeat;
-        color: #eee;
-      }
+      &:nth-child(1)
+        {@include responsiveImages("/assets/img/bg/carousel-1-s.png", "/assets/img/bg/carousel-1-m.png", "/assets/img/bg/carousel-1-l.png", "/assets/img/bg/carousel-1-xl.png");}
+      &:nth-child(2)
+        {@include responsiveImages("/assets/img/bg/carousel-2-s.png", "/assets/img/bg/carousel-2-m.png", "/assets/img/bg/carousel-2-l.png", "/assets/img/bg/carousel-2-xl.png");}
+      &:nth-child(3)
+        {@include responsiveImages("/assets/img/bg/carousel-3-s.png", "/assets/img/bg/carousel-3-m.png", "/assets/img/bg/carousel-3-l.png", "/assets/img/bg/carousel-3-xl.png");}
     }
-    .item:nth-child(1)
-      {background-image: url("/assets/img/carousel-1.jpg");}
-    .item:nth-child(2)
-      {background-image: url("/assets/img/carousel-2.jpg");}
-    .item:nth-child(3)
-      {background-image: url("/assets/img/carousel-3.png");}
   }
   .carousel-caption {
     padding: 20px;

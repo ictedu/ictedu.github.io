@@ -12,10 +12,10 @@
     display: inline-block;
     overflow: hidden;
     .img-us {
-      &.sf-img {background-image: url("/assets/img/sf-img.jpg");}
-      &.na-img {background-image: url("/assets/img/na-img.jpg");}
-      &.is-img {background-image: url("/assets/img/is-img.jpg");}
-      &.ss-img {background-image: url("/assets/img/ss-img.jpg");}
+      &.sf-img {background-image: url("/assets/img/authors/sf-img.jpg");}
+      &.na-img {background-image: url("/assets/img/authors/na-img.jpg");}
+      &.is-img {background-image: url("/assets/img/authors/is-img.jpg");}
+      &.ss-img {background-image: url("/assets/img/authors/ss-img.jpg");}
       background: {
         size: cover;
         position: center center;
