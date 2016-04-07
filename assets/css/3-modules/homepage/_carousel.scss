@@ -21,5 +21,16 @@
     margin-bottom: 90px;
     min-height: 200px;
     border-radius: 5px;
+    ul {
+      text-align: center;
+      padding: 5px;
+      li {
+        list-style-type: none;
+        margin-top: 10px;
+      }
+    }
+    a {
+      text-decoration: underline;
+    }
   }
 }
