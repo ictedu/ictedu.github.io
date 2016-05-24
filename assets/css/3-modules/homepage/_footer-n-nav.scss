@@ -17,16 +17,14 @@
 #site-footer .container {
   padding: 70px 20px;
   min-height: 200px;
+  text-align: center;
   .brand-copy {
-    a, span {color: #aaa;}
-    span {
-      line-height: 3.5;
-      padding-left: 30px;
+    a, h4 {color: #aaa;}
+    h4 {
+      padding-top: 10px;
+      padding-left: 10px;
       display: inline-block;
-      @media all and (max-width: 370px)
-        {&:before {content: "\A";}}
-      @media all and (max-width: 340px)
-        {padding-left: 0;}
     }
   }
+  .dev {color: #aaa;}
 }
